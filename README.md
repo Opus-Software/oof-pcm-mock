@@ -1,9 +1,14 @@
 # Mock PCM Service
 
 Esse projeto tem como objetivo servir de mock para os retornos do serviço de
-PCM. Ele auxilia no processo de desenvolvimento para que não seja necessário
-bater nas APIs de sandbox para obter um retorno do formato da especificação
-para o cenário de POST de novos reportes.
+PCM do Open Finance Brasil (OFB) e do Open Insurance (OPIN). Ele auxilia no
+processo de desenvolvimento para que não seja necessário bater nas APIs de
+sandbox para obter um retorno do formato da especificação para o cenário de
+POST de novos reportes.
+
+**Observação:** Ao rodar a ferramenta, os endpoints de OFB e OPIN estarão
+disponíveis simultaneamente uma vez que as rotas são distintas entre as
+especificações de PCM.
 
 ## Como rodar o projeto
 
@@ -11,7 +16,7 @@ No diretório onde estiver o arquivo `main.go` executar:
 
 `go run main.go <retornoHttpEsperado>`
 
-### API /report-api/v1/private/report e API /report-api/v1/opendata/report
+### APIs /report-api/v1/private/report e /report-api/v1/opendata/report de OFB e /report-api/v1/server-batch de OPIN
 
 Os seguintes cenários de retorno de sucesso foram implementados:
 
@@ -30,6 +35,6 @@ Os seguintes cenários de retorno de erro foram implementados:
 - `429`: Unsupported Media Type
 - `500`: Internal Server Error
 
-### API /token/
+### API /token/ de OFB
 
 Implementado um cenário de sucesso onde um token é emitido para fins de teste.

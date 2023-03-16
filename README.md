@@ -10,6 +10,22 @@ POST de novos reportes.
 disponíveis simultaneamente uma vez que as rotas são distintas entre as
 especificações de PCM.
 
+## Sobre o projeto
+
+Este projeto é uma ferramenta auxiliar utilizada pela equipe do 
+[OPUS Open Insurance](https://www.opus-software.com.br/open-insurance/) e
+[OPUS Open Finance](https://www.opus-software.com.br/solucoes-cases/opus-open-finance/),
+a solução de software mais completa para instituições cumprirem as regulações
+do OFB e OPIN.
+
+Nossa plataforma é uma solução completa que resolve os requisitos de segurança e negócio,
+incluindo implementação das APIs obrigatórias,
+gestão de consentimentos 100% transparente,
+integração com a PCM, e muito mais, 
+podendo ser utilizada em qualquer nuvem, on-premise, ou como SaaS.
+
+Entre em contato e conheça mais sobre nossas soluções!
+
 ## Como rodar o projeto
 
 No diretório onde estiver o arquivo `main.go` executar:
